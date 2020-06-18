@@ -20,6 +20,14 @@ public class RedisClient {
         }
     }
 
+    /**
+     * 执行 Redis Set命令
+     *
+     * @param key
+     * @param value
+     * @return String
+     * @throws IOException
+     */
     public String set(String key, String value) throws IOException {
         StringBuilder stringBuilder = new StringBuilder();
         //数组长度为3
@@ -52,6 +60,13 @@ public class RedisClient {
         return new String(b);
     }
 
+    /**
+     * 执行 Redis get命令
+     *
+     * @param key
+     * @return String
+     * @throws IOException
+     */
     public String get(String key) throws IOException {
         StringBuilder stringBuilder = new StringBuilder();
         //数组长度
