@@ -4,6 +4,11 @@ import io.rebloom.client.Client;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import redis.clients.jedis.JedisPool;
 
+/**
+ * 布隆过滤器
+ *
+ * @author 64919
+ */
 public class BloomTest {
     public static void main(String[] args) {
         GenericObjectPoolConfig config;
@@ -17,7 +22,7 @@ public class BloomTest {
 //        for (int i = 0; i < 10000; i++) {
 //            client.add("bloom", "bloomTest---" + i);
 //        }
-        boolean bloom = client.exists("bloom", "bloomTest---100000");
+        boolean bloom = client.exists("bloom", "bloomTest---10000");
         System.out.println(bloom);
     }
 }
