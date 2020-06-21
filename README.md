@@ -5,3 +5,4 @@
 > [连接池含了用Redis令牌桶做限流的实例](https://github.com/Jakexsc/RedisReStudy/blob/master/redisPool/src/main/java/com/xsc/lettuce)
 ## [3.Redis队列](https://github.com/Jakexsc/RedisReStudy/tree/master/redisQueue)
 ## [4.Redis通信协议](https://github.com/Jakexsc/RedisReStudy/tree/master/redisResp)
+## [5.Redis事务](https://github.com/Jakexsc/RedisReStudy/blob/master/redisTrancation/src/main/java/com/xsc/trancation/TrancationTest.java)
