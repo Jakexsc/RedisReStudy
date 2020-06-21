@@ -39,6 +39,7 @@ public class TrancationTest {
                 break;
             }
         }
+
         return Integer.parseInt(jedis.get(key));
     }
 }
