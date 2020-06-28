@@ -17,8 +17,9 @@ public class RedisPool {
         config.setMaxIdle(300);
         //设置最大空闲数
         config.setMaxTotal(1000);
-        //设置最大等待数
+        //设置最大等待时间
         config.setMaxWaitMillis(10000);
+        //在空闲时检查有效性
         config.setTestOnBorrow(true);
         jedisPool = new JedisPool(config, "192.168.37.128", 6379, 10000, "chen-980426");
     }
