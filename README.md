@@ -9,3 +9,4 @@
 ## [5.Redis事务](https://github.com/Jakexsc/RedisReStudy/blob/master/redisTrancation/src/main/java/com/xsc/trancation/TrancationTest.java)
 ## [6.Redis哨兵](https://github.com/Jakexsc/RedisReStudy/blob/master/redisSentinel/src/main/java/com/xsc/sentinel/SentinelJedis.java)
 ## [7.RedisBootSentinel](https://github.com/Jakexsc/RedisReStudy/blob/master/redisBootSentinel/src/test/java/com/xsc/bootsentinel/BootsentinelApplicationTests.java)
+## [8.RedisCluster(集群)](https://github.com/Jakexsc/RedisReStudy/blob/master/redisCluster/src/main/java/com/xsc/jedis/RedisCluster.java)
